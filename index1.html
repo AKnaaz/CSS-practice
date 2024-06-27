@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            padding: 50px 0;
+            margin: 20px auto;
+            text-align: center;
+            width: 300px;
+            height: 200px;
+            border: 3px solid black;
+box-shadow: 10px 10px 5px gray, 20px 20px 5px rgb(78, 75, 75), 30px 30px 5px rgb(46, 43, 43);
+/* ei overflow na dile resize kaj korbe na.r overflow:visible dileo resize kaj korbe na. */
+overflow: auto;
+resize: both;
+
+
+        }
+
+        .box2{
+            width: 300px;
+height: 200px;
+border: 3px solid black;
+margin:10px 10px;
+background: linear-gradient(to right, white, rgb(109, 219, 205), rgb(15, 84, 124),blue );
+
+        }
+
+        .box3{
+            width: 300px;
+height: 200px;
+border: 3px solid black;
+background:radial-gradient( yellow, rgba(255, 230, 0, 0.589), rgb(235, 71, 71));
+      
+}
+
+ul{ 
+    width: 300px;
+    border: 3px solid brown;
+    list-style-position: inside;
+    line-height: 25px;
+    list-style-type: '\261E';
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.parent{
+    border: 5px sobid black;
+    background-color: chartreuse;
+    height: 800px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.div{
+    width: 200px;
+    height: 150px;
+    background-color: blueviolet;
+    border: 3px solid black;
+    color: aliceblue;
+    font-size: large;
+}
+.div3{
+    flex-grow: 1;
+    order: 2;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="box1">
+        BOX SHADOW <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos harum, ullam voluptatum quo ab voluptatem enim suscipit adipisci, illo nam vero est in, tempora repudiandae. Vitae ullam ea aliquid atque quisquam optio quaerat voluptas quidem porro tempore nesciunt recusandae unde officia maxime perferendis necessitatibus fugit repellat ducimus, provident iste rerum eum nihil molestiae! Ad, delectus tempore excepturi magni laudantium in nobis inventore iusto beatae sed magnam molestiae. Id, porro facere iste necessitatibus iusto rem iure. Assumenda reiciendis unde mollitia? Consectetur pariatur nobis in numquam neque. Totam nisi explicabo placeat assumenda eveniet qui tempora fuga ducimus, porro aut repellat fugiat odio veritatis commodi voluptate enim aspernatur atque dolore ex rem consequuntur. Officia magnam, modi sed fuga commodi laboriosam magni sint veritatis quisquam nostrum odit assumenda exercitationem, hic cumque deserunt est doloribus suscipit? Nihil vero delectus debitis eaque voluptatum explicabo rem consequatur, aut pariatur! Tempora, cumque! Sit quasi sunt quas quaerat laboriosam. Aliquam suscipit fugit odio aliquid, perspiciatis itaque excepturi tenetur earum? Accusamus dolorum beatae quaerat error, debitis corrupti fugiat libero numquam repudiandae natus voluptate et soluta nesciunt minima nobis ipsa, quae non praesentium. Eligendi eum ullam labore quae incidunt at eius? Voluptatibus id sunt saepe rerum molestiae at commodi exercitationem porro assumenda laboriosam sint a ad, possimus aliquam minima autem, enim dolore inventore expedita odio excepturi. Cum corrupti, aliquid blanditiis vitae tenetur quos ab sit quisquam voluptatum maxime soluta aliquam beatae neque earum! Sit soluta rem expedita enim natus error doloremque fugiat voluptates accusantium nobis voluptatum, iure nisi velit ad, labore ratione magnam! Nostrum alias labore vel similique eum magnam eligendi impedit, incidunt at perspiciatis, fuga quis magni illum corrupti dolor. Ad hic itaque saepe adipisci natus. Incidunt laudantium necessitatibus tempore iste veritatis expedita, fuga culpa nulla consequatur maiores, ad ab quod saepe provident aliquam debitis excepturi corporis ipsa nam voluptatibus. Voluptatibus nesciunt dignissimos reprehenderit in pariatur sequi earum mollitia consectetur repellendus exercitationem non omnis cumque inventore rem sapiente blanditiis, hic architecto, autem repudiandae quod dolorem. Repudiandae culpa totam modi sapiente, perspiciatis aliquid placeat iure dolor illum? Quam illo temporibus, quod aliquid placeat atque molestiae magni nemo ducimus iusto sapiente quo perferendis, saepe ratione. Ex at mollitia temporibus enim laboriosam fuga non dignissimos dolorem repudiandae iusto ratione doloremque, nostrum architecto sit ipsum nulla eveniet assumenda voluptates! Aperiam in tenetur voluptas necessitatibus architecto suscipit aspernatur ipsum sint mollitia veritatis id animi voluptatem vero quo, rem esse expedita quisquam, quod consectetur ab beatae?
+    </div>
+
+
+    <div class="box2"></div>
+    <div class="box3"></div>
+
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+
+        
+
+    </ul>
+
+    <div class="parent">
+        <div class="div">DIV-1</div>
+        <div class="div">DIV-2</div>
+        <div class="div div3">DIV-3</div>
+
+
+
+
+    </div>
+
+
+</body>
+</html>
